@@ -1,0 +1,24 @@
+{
+    "name": "Homework 9",
+    "endpoint": "ucsd/dsc20/sp18/hw9",
+    "src": [
+        "hw9.py"
+    ],
+    "tests": {
+      "hw9.py:Deck.shuffle":"doctest",
+      "hw9.py:Deck.__init__":"doctest",
+      "hw9.py:Deck.deal_cards":"doctest",
+      "hw9.py:Card":"doctest",
+      "hw9.py:BinaryTree.tree_min":"doctest",
+      "hw9.py:BinaryTree.binary_search":"doctest"
+    },
+    "default_tests": [
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
